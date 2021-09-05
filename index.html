@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- main scss -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Start login -->
+    <div class="component--login">
+      <div class="login-card">
+        <header>
+          <h5>Hoşgeldiniz !</h5>
+          <p>Giriş sayfası</p>
+        </header>
+        <div class="login-content">
+          <div class="avatar">
+            <img src="img/avatar.jpg" alt="" />
+          </div>
+          <form action="" method="POST">
+            <ul>
+              <li>
+                <label class="title" for="">Kullanıcı adı</label>
+                <input type="text" placeholder="Kullanıcı adınız" />
+              </li>
+              <li>
+                <label class="title" for="">Şifre</label>
+                <input type="password" placeholder="Şifreniz" />
+              </li>
+              <li>
+                <label for="checkbox" class="checkbox">
+                  <input type="checkbox" name="remember_me" value="1" />
+                  <span class="checkbox"></span>
+                  <span class="text">Beni hatırla</span>
+                </label>
+              </li>
+              <li>
+                <button type="submit">Giriş</button>
+                <a href="" class="forgot-password"
+                  ><img src="img/icon-lock.svg" alt="" /> Şifremi unuttum</a
+                >
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End login -->
+
+    <!-- app js -->
+    <script src="./app.js"></script>
+  </body>
+</html>
